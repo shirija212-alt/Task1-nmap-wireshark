@@ -1,0 +1,7 @@
+# Example small TCP targeted scan output (captured during Wireshark capture)
+# (This is a human-readable excerpt; actual pcap is in screenshots/scan_capture.pcapng)
+
+08:46:542.331783401  10.161.135.85 -> 10.161.135.24  TCP  [SYN] Seq=8 Win=1024 Len=0 MSS=1460
+08:46:542.332191301  10.161.135.67 -> 10.161.135.85  TCP  [SYN, ACK] Seq=0 Ack=1 Win=64240 Len=0 MSS=1460
+08:46:542.314143585  10.161.135.85 -> 10.161.135.24  UDP  [DNS PTR query]
+08:46:542.314870761  10.161.135.24 -> 10.161.135.85  UDP  [DNS response - No such name / PTR]

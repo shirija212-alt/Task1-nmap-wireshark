@@ -1,0 +1,8 @@
+# Commands used (record)
+sudo nmap -sS -sV -O -Pn -p- 10.161.135.85 -oN scans/host_10.161.135.85_full.txt
+sudo nmap -sU --top-ports 50 -Pn -T3 10.161.135.85/24 -oN scans/udp_top50.txt
+sudo nmap -sS -p22,80,443 -Pn -T4 10.161.135.85 -oN scans/tcp_small_test.txt
+
+# Wireshark capture:
+# Start Wireshark on eth0, capture filter: host 10.161.135.85
+# Save as screenshots/scan_capture.pcapng

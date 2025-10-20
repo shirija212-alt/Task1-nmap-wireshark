@@ -1,0 +1,44 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-10-20 08:14 EDT
+Nmap scan report for 10.161.135.24
+Host is up (0.0029s latency).
+Not shown: 32 open|filtered udp ports (no-response)
+PORT      STATE  SERVICE
+7/udp     closed echo
+53/udp    open   domain
+69/udp    closed tftp
+80/udp    closed http
+139/udp   closed netbios-ssn
+500/udp   closed isakmp
+631/udp   closed ipp
+996/udp   closed vsinet
+997/udp   closed maitrd
+998/udp   closed puparp
+1701/udp  closed L2TP
+1812/udp  closed radius
+1900/udp  closed upnp
+2049/udp  closed nfs
+3283/udp  closed netassistant
+3456/udp  closed IISrpc-or-vat
+49153/udp closed unknown
+49154/udp closed unknown
+MAC Address: 0E:8C:3D:A2:16:23 (Unknown)
+
+Nmap scan report for 10.161.135.67
+Host is up (0.00042s latency).
+Not shown: 49 open|filtered udp ports (no-response)
+PORT    STATE SERVICE
+137/udp open  netbios-ns
+MAC Address: 58:FB:84:D3:CD:CC (Intel Corporate)
+
+Nmap scan report for 10.161.135.185
+Host is up (0.0041s latency).
+All 50 scanned ports on 10.161.135.185 are in ignored states.
+Not shown: 50 closed udp ports (port-unreach)
+MAC Address: A0:9D:C1:9A:E8:39 (China Dragon Technology Limited)
+
+Nmap scan report for 10.161.135.85
+Host is up (0.000011s latency).
+All 50 scanned ports on 10.161.135.85 are in ignored states.
+Not shown: 50 closed udp ports (port-unreach)
+
+Nmap done: 256 IP addresses (4 hosts up) scanned in 51.68 seconds
